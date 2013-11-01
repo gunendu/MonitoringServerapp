@@ -1,0 +1,155 @@
+==4196== Memcheck, a memory error detector
+==4196== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==4196== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4196== Command: ./cppapplication_1
+==4196== 
+==4196== Thread 17:
+==4196== Conditional jump or move depends on uninitialised value(s)
+==4196==    at 0x47DEB6: serverConnectThread::Process(void*) (serverConnectThread.cpp:301)
+==4196==    by 0x49ED7C: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196== 
+==4196== Conditional jump or move depends on uninitialised value(s)
+==4196==    at 0x47F260: serverConnectThread::Process(void*) (serverConnectThread.cpp:584)
+==4196==    by 0x49ED7C: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196== 
+==4196== Thread 19:
+==4196== Invalid read of size 8
+==4196==    at 0x4484B4: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:357)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196==  Address 0x1493fb20 is 0 bytes inside a block of size 16 free'd
+==4196==    at 0x4C2A4BC: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x44EA74: MONITORING::leaseProcessStartDataReader::~leaseProcessStartDataReader() (dds_cpp_data_TDataReader.gen:594)
+==4196==    by 0x4B0657: DDSDataReader::deleteI(DDSDataReader*) (DataReader.cxx:506)
+==4196==    by 0x4B2182: DDS_DataReader_impl_finalizeI (DataReader.cxx:1460)
+==4196==    by 0x5A0E81: DDS_DataReader_finalizeI (DataReader.c:3481)
+==4196==    by 0x82AA70: PRESPsService_readerTableRecordFinalize (PsServiceImpl.c:8432)
+==4196==    by 0x9CA1DA: REDATable_deleteRecordNodeTableEA (Table.c:1008)
+==4196==    by 0x9CA3D5: REDATable_cleanupRemovedRecordsTableEA (Table.c:1195)
+==4196==    by 0x9CA670: REDATable_cleanup (Table.c:1369)
+==4196==    by 0x9CD3F3: REDADatabase_cleanup (Database.c:482)
+==4196==    by 0x7A0EB3: PRESParticipant_unregisterType (Type.c:545)
+==4196==    by 0x55DAFB: DDS_DomainParticipant_unregister_type (DomainParticipant.c:7639)
+==4196== 
+==4196== 
+==4196== HEAP SUMMARY:
+==4196==     in use at exit: 12,385,708 bytes in 3,389 blocks
+==4196==   total heap usage: 34,934 allocs, 31,545 frees, 27,151,435 bytes allocated
+==4196== 
+==4196== Thread 1:
+==4196== 8 bytes in 1 blocks are definitely lost in loss record 17 of 807
+==4196==    at 0x4C2B1C7: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x447400: StartLineProcessConnector::createReader() (StartLineProcess.cpp:31)
+==4196==    by 0x447320: StartLineProcessCollector::start() (StartLineProcess.cpp:7)
+==4196==    by 0x445311: main (main.cpp:367)
+==4196== 
+==4196== 68 bytes in 4 blocks are definitely lost in loss record 648 of 807
+==4196==    at 0x4C29DB4: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x9D6871: RTIOsapiHeap_reallocateMemoryInternal (heap.c:397)
+==4196==    by 0x4ED153: DDS_String_alloc (String.c:48)
+==4196==    by 0x49BADF: MONITORING::tagServerInfo_initialize_ex(MONITORING::tagServerInfo*, int) (Monitoring.cxx:2030)
+==4196==    by 0x45A535: MONITORING::tagServerInfoTypeSupport::initialize_data_ex(MONITORING::tagServerInfo*, unsigned char) (dds_cpp_data_TTypeSupport.gen:319)
+==4196==    by 0x444082: CcopyStructure::copyData(tagServerInfo&, int, int, int) (copyStructure.cpp:98)
+==4196==    by 0x47F1B6: serverConnectThread::Process(void*) (serverConnectThread.cpp:578)
+==4196==    by 0x49ED7C: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196== 
+==4196== 68 bytes in 4 blocks are definitely lost in loss record 649 of 807
+==4196==    at 0x4C29DB4: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x9D6871: RTIOsapiHeap_reallocateMemoryInternal (heap.c:397)
+==4196==    by 0x4ED153: DDS_String_alloc (String.c:48)
+==4196==    by 0x49093C: MONITORING::leaseLineInfo_initialize_ex(MONITORING::leaseLineInfo*, int) (Monitoring.cxx:1224)
+==4196==    by 0x491060: MONITORING::leaseLineInfoSeq_set_maximum(MONITORING::leaseLineInfoSeq*, int) (dds_c_sequence_TSeq.gen:405)
+==4196==    by 0x49BC0F: MONITORING::tagServerInfo_initialize_ex(MONITORING::tagServerInfo*, int) (Monitoring.cxx:2056)
+==4196==    by 0x45A535: MONITORING::tagServerInfoTypeSupport::initialize_data_ex(MONITORING::tagServerInfo*, unsigned char) (dds_cpp_data_TTypeSupport.gen:319)
+==4196==    by 0x444082: CcopyStructure::copyData(tagServerInfo&, int, int, int) (copyStructure.cpp:98)
+==4196==    by 0x47F1B6: serverConnectThread::Process(void*) (serverConnectThread.cpp:578)
+==4196==    by 0x49ED7C: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196== 
+==4196== 300 (60 direct, 240 indirect) bytes in 1 blocks are definitely lost in loss record 726 of 807
+==4196==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x5DEFD94: nss_parse_service_list (nsswitch.c:678)
+==4196==    by 0x5DF0855: __nss_database_lookup (nsswitch.c:175)
+==4196==    by 0x1641A623: ???
+==4196==    by 0x5DA93FC: getpwuid_r@@GLIBC_2.2.5 (getXXbyYY_r.c:256)
+==4196==    by 0x5053378: ??? (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x5041DA7: ??? (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x5050A2B: ??? (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x50522E9: ??? (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x5042C5D: PQconnectPoll (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x5043DBD: ??? (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x504479E: PQconnectdb (in /usr/lib/libpq.so.5.4)
+==4196== 
+==4196== 304 bytes in 1 blocks are possibly lost in loss record 727 of 807
+==4196==    at 0x4C29DB4: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x4012074: _dl_allocate_tls (dl-tls.c:297)
+==4196==    by 0x5493ABC: pthread_create@@GLIBC_2.2.5 (allocatestack.c:571)
+==4196==    by 0x448842: StartLineProcessConnector::startReader(StartLineProcessCollector*) (StartLineProcess.h:66)
+==4196==    by 0x44733E: StartLineProcessCollector::start() (StartLineProcess.cpp:7)
+==4196==    by 0x445311: main (main.cpp:367)
+==4196== 
+==4196== 396 bytes in 12 blocks are definitely lost in loss record 732 of 807
+==4196==    at 0x4C29DB4: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x9D6871: RTIOsapiHeap_reallocateMemoryInternal (heap.c:397)
+==4196==    by 0x4ED153: DDS_String_alloc (String.c:48)
+==4196==    by 0x498F10: MONITORING::tagSpaceInfo_initialize_ex(MONITORING::tagSpaceInfo*, int) (Monitoring.cxx:1797)
+==4196==    by 0x499547: MONITORING::tagSpaceInfoSeq_set_maximum(MONITORING::tagSpaceInfoSeq*, int) (dds_c_sequence_TSeq.gen:405)
+==4196==    by 0x49BBBB: MONITORING::tagServerInfo_initialize_ex(MONITORING::tagServerInfo*, int) (Monitoring.cxx:2049)
+==4196==    by 0x45A535: MONITORING::tagServerInfoTypeSupport::initialize_data_ex(MONITORING::tagServerInfo*, unsigned char) (dds_cpp_data_TTypeSupport.gen:319)
+==4196==    by 0x444082: CcopyStructure::copyData(tagServerInfo&, int, int, int) (copyStructure.cpp:98)
+==4196==    by 0x47F1B6: serverConnectThread::Process(void*) (serverConnectThread.cpp:578)
+==4196==    by 0x49ED7C: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196== 
+==4196== 2,600 bytes in 40 blocks are definitely lost in loss record 778 of 807
+==4196==    at 0x4C29DB4: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x9D6871: RTIOsapiHeap_reallocateMemoryInternal (heap.c:397)
+==4196==    by 0x4ED153: DDS_String_alloc (String.c:48)
+==4196==    by 0x496395: MONITORING::tagProcessInfo_initialize_ex(MONITORING::tagProcessInfo*, int) (Monitoring.cxx:1625)
+==4196==    by 0x4969C5: MONITORING::tagProcessInfoSeq_set_maximum(MONITORING::tagProcessInfoSeq*, int) (dds_c_sequence_TSeq.gen:405)
+==4196==    by 0x49BB6B: MONITORING::tagServerInfo_initialize_ex(MONITORING::tagServerInfo*, int) (Monitoring.cxx:2042)
+==4196==    by 0x45A535: MONITORING::tagServerInfoTypeSupport::initialize_data_ex(MONITORING::tagServerInfo*, unsigned char) (dds_cpp_data_TTypeSupport.gen:319)
+==4196==    by 0x444082: CcopyStructure::copyData(tagServerInfo&, int, int, int) (copyStructure.cpp:98)
+==4196==    by 0x47F1B6: serverConnectThread::Process(void*) (serverConnectThread.cpp:578)
+==4196==    by 0x49ED7C: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196== 
+==4196== 32,808 bytes in 1 blocks are definitely lost in loss record 797 of 807
+==4196==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x5DA5D0A: __alloc_dir (opendir.c:202)
+==4196==    by 0x4425C0: CLogger::SetFileName(char const*, char const*) (logger.cpp:183)
+==4196==    by 0x442413: CLogger::StartLogger(char const*, int, char const*) (logger.cpp:143)
+==4196==    by 0x445282: main (main.cpp:351)
+==4196== 
+==4196== 681,636 (880 direct, 680,756 indirect) bytes in 1 blocks are definitely lost in loss record 806 of 807
+==4196==    at 0x4C2B6CD: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==4196==    by 0x503FD3A: ??? (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x50446E5: PQconnectStart (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x5044785: PQconnectdb (in /usr/lib/libpq.so.5.4)
+==4196==    by 0x44622C: DBConnection::getQueryResult(std::map<long, std::string, std::less<long>, std::allocator<std::pair<long const, std::string> > >&, char*, char*, char*, char*, char*, char*) (DBConnection.cpp:28)
+==4196==    by 0x47DCEB: serverConnectThread::Process(void*) (serverConnectThread.cpp:255)
+==4196==    by 0x49ED7C: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==4196==    by 0x5492E99: start_thread (pthread_create.c:308)
+==4196==    by 0x5DDE4BC: clone (clone.S:112)
+==4196== 
+==4196== LEAK SUMMARY:
+==4196==    definitely lost: 36,888 bytes in 64 blocks
+==4196==    indirectly lost: 680,996 bytes in 166 blocks
+==4196==      possibly lost: 304 bytes in 1 blocks
+==4196==    still reachable: 11,667,520 bytes in 3,158 blocks
+==4196==         suppressed: 0 bytes in 0 blocks
+==4196== Reachable blocks (those to which a pointer was found) are not shown.
+==4196== To see them, rerun with: --leak-check=full --show-reachable=yes
+==4196== 
+==4196== For counts of detected and suppressed errors, rerun with: -v
+==4196== Use --track-origins=yes to see where uninitialised values come from
+==4196== ERROR SUMMARY: 17 errors from 12 contexts (suppressed: 2 from 2)

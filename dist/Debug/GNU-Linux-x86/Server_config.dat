@@ -1,0 +1,383 @@
+			[TotalServers]
+
+NoOfConnections		  =   13
+
+			[server1]
+
+Ipadress                 =   192.168.30.32 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+NumberOfProcess           =   9
+
+Process1		  =    bridge
+
+Process2		  =    xml	
+
+Process3		  =    stp-nnf
+
+Process4		  =    stp-conf
+
+Process5		  =    ord
+
+Process6		  =    ord_thinker
+
+Process7		  =    aurora_feed
+
+Process8		  =    tapconnect
+
+Process9		  =    stp-report
+
+dbUserName		 =  money
+
+dbPassword		=   billion
+
+dbName			= mani
+
+dbPort			= 5432	
+
+NumberOfSpace		 = 3
+
+Space1	 		  =    /tmp
+
+Space2             	  =    /home
+
+Space3		 	  =    /var
+
+Line name		  =   FO
+
+Line noOfConn		  =    3
+
+			[server2]
+
+Ipadress                 =   192.168.30.231 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io 
+
+NumberOfProcess           =   9 
+
+Process1		  =    bridge
+
+Process2		  =    xml	
+
+Process3		  =    stp-nnf
+
+Process4		  =    stp-conf
+
+Process5		  =    stp-report
+
+Process6		  =    ord
+
+Process7		  =    ord_thinker
+
+Process8		  =    aurora_feed
+
+Process9		  =    tapconnect	
+
+dbUserName              =  money
+
+dbPassword              =  billion
+
+dbName                  = mani
+
+dbPort                  = 5432
+
+NumberOfSpace            = 3
+
+Space1	 		  =     /tmp
+
+Space2             	  =    /home
+
+Space3		 	  =    /var
+
+Line name                 =   FO
+
+Line noOfConn		  =    1
+
+
+
+ [server3]
+
+Ipadress                 =   192.168.30.33
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =    8
+
+Process1                  =    AQCache_publisher
+
+Process2                  =    Param_Server_REP    
+
+Process3                  =    SPCache_main
+
+Process4		  =    TRListener_REP
+
+Process5		  =    IceAck_REP
+
+Process6		  =    MNLEngine_REP
+
+Process7		  =    TDetails_REP
+
+Process8		  =    AHTD_REP
+
+NumberOfSpace            =       3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+
+ [server4]
+
+Ipadress                 =   192.168.30.34
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   4
+
+
+Process1                  =    AHCache_main
+
+Process2                  =    RTREngineApp
+
+Process3                  =    RTRColorEngineApp
+
+Process4		  =    Color_REP
+
+NumberOfSpace            = 3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+			
+ [server5]
+
+Ipadress                 =   192.168.30.37
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+numberOfProcess           =   3
+
+
+Process1                  =    risk_model_colo_at_home
+
+Process2                  =    shortened_model_colo_at_home
+
+Process3		  =    model_subscriber_colo_at_home
+
+NumberOfSpace            = 3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+	
+ [server6]
+
+Ipadress                 =   192.168.30.121
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   2
+
+Process1                  =    feeder_publisher
+
+Process2                  =    feeder_publisher
+
+FilePath		  =    /tmp/LOGS/log_feeder_new_201*
+
+NumberOfSpace            = 3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+	
+
+ [server7]
+
+Ipadress                 =   192.168.30.151
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   5
+
+
+Process1                  =   aqEngine
+
+Process2                  =    OMSApp
+
+Process3                  =    OMSListner
+
+Process4		  =    SPCache_REP
+
+Process5		  =    AQCache_REP
+
+NumberOfSpace            = 3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+
+ [server8]
+
+Ipadress                 =   192.168.30.152
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   6
+
+
+Process1                  =   OMSApp
+
+Process2                 =    OMSListner
+
+Process3                  =    AHEngineApp
+
+Process4                  =    Param_Server
+
+Process5                  =    AHCache_REP
+
+Process6		  =    MNLOrderEngineApp
+
+NumberOfSpace            = 3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+[server9]
+
+Ipadress                 =   192.168.30.153
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   1
+
+Process1                  =   shortened_model_colo
+
+NumberOfSpace            = 3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+[server10]
+
+Ipadress                 =   192.168.30.154
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   2
+
+Process1                  =   ordergenerator
+
+Process2		  =   Color_Logic_Engine
+
+NumberOfSpace             =    3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+[server11]
+
+Ipadress                 =   192.168.30.155
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   0
+
+Process1                  =   ordergenerator
+
+Process2                  =   Color_Logic_Engine
+
+NumberOfSpace            = 3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+[server12]
+
+Ipadress                 =   192.168.30.28
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   1
+
+Process1                  =   argus
+
+NumberOfSpace             =    3
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+
+[server13]
+
+Ipadress                 =   192.168.30.122
+
+user                     =    dolat
+
+password                 =    ga34567io
+
+NumberOfProcess           =   1
+
+Process1                  =   feeder_publisher
+
+NumberOfSpace             =    3
+
+FilePath                  =    /tmp/LOGS/log_feeder_new_201*
+
+Space1                    =     /tmp
+
+Space2                    =    /home
+
+Space3                    =   /var
+

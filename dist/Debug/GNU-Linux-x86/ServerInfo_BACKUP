@@ -1,0 +1,788 @@
+			[TotalTapServers]
+
+NoOfConnections		  =   35
+
+			[TapServer1]
+
+Ipadress                 =   192.168.1.191			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM 
+
+port			 =     9001
+
+Path			 =     /home/dolat
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer2]
+
+Ipadress                 =   192.168.1.31 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM
+
+port			 =    9601
+
+Path			 =     /home/mint 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer3]
+
+Ipadress                 =   192.168.1.35 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io 
+
+Line name	  	  =    CM
+
+port			 =    9601
+
+Path			 =     /home/mint
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer4]
+
+Ipadress                 =   192.168.1.43 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM FO
+
+port			 =    9601
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+			[TapServer5]
+
+Ipadress                 =   192.168.1.54 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM
+
+port			 =    9601
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+			[TapServer6]
+
+Ipadress                 =   192.168.1.76 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM FO 
+
+port			 =    9601
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer7]
+
+Ipadress                 =   192.168.1.177 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    FO
+
+port			 =    9602
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer8]
+
+Ipadress                 =   192.168.1.132 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM FO 
+
+port			 =    9601
+
+Path			 =     /mint/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+		[TapServer9]
+
+Ipadress                 =   192.168.1.134 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM FO 
+
+port			 =    9601
+
+Path			 =     /home/mint 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+	[TapServer10]
+
+Ipadress                 =   192.168.1.152 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM
+
+port			 =    9601
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+	[TapServer11]
+
+Ipadress                 =   192.168.1.166 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM 
+
+port			 =    9601
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer12]
+
+Ipadress                 =   192.168.1.77 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM
+
+port			 =    9601
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+	[TapServer13]
+
+Ipadress                 =   192.168.1.178 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE
+
+port			 =    9602
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+	[TapServer14]
+
+Ipadress                 =   192.168.1.80 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    FO
+
+port			 =    9602 
+
+Path			 =     /home/dolat
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+	[TapServer15]
+
+Ipadress                 =   192.168.1.184 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    FO 
+
+port			 =    9602
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+	[TapServer16]
+
+Ipadress                 =   192.168.1.185 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io 
+
+Line name	  	  =    CM FO
+
+port			 =    9601
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer17]
+
+Ipadress                 =   192.168.1.192 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM
+
+port			 =    9601
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer18]
+
+Ipadress                 =   192.168.1.193 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    FO
+
+port			 =    9602
+
+Path			 =     /home/mint  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer19]
+
+Ipadress                 =   192.168.1.205 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM
+
+port			 =    9601
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer20]
+
+Ipadress                 =   192.168.1.207 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM 
+
+port			 =    9601
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer21]
+
+Ipadress                 =   192.168.1.237 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM 
+
+port			 =    9601
+
+Path			 =     /home/mint 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer22]
+
+Ipadress                 =   192.168.1.131 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    FO
+
+port			 =    9602
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer23]
+
+Ipadress                 =   192.168.1.181 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM 
+
+port			 =    9601
+
+Path			 =     /home/mint 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer24]
+
+Ipadress                 =   192.168.1.239 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    FO
+
+port			 =    9602
+
+Path			 =     /home/mint  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer25]
+
+Ipadress                 =   192.168.1.240 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+Line name	  	  =    FO 
+
+port			 =    9602
+
+Path			 =     /home/mint 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer26]
+
+Ipadress                 =   192.168.1.115 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =   CM FO
+
+port			 =    9601
+
+Path			 =     /home/dolat  
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer27]
+
+Ipadress                 =   192.168.1.194 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    CM FO 
+
+port			 =    9601
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+
+
+[TapServer28]
+
+Ipadress                 =   192.168.1.36 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer29]
+
+Ipadress                 =   192.168.1.167 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer30]
+
+Ipadress                 =   192.168.1.178 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+
+[TapServer31]
+
+Ipadress                 =   192.168.1.55 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer32]
+
+Ipadress                 =   192.168.1.91 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer33]
+
+Ipadress                 =   192.168.1.105 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+[TapServer34]
+
+Ipadress                 =   192.168.1.41 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat 
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+
+
+[TapServer35]
+
+Ipadress                 =   192.168.1.156 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io
+
+Line name	  	  =    BSE 
+
+port			 =    5001
+
+Path			 =     /home/dolat
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+
+			
+
+
+
+
+
+
+			

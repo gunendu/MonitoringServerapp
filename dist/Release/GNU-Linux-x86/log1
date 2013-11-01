@@ -1,0 +1,272 @@
+==18869== Memcheck, a memory error detector
+==18869== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==18869== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==18869== Command: ./cppapplication_1
+==18869== 
+==18869== Thread 17:
+==18869== Conditional jump or move depends on uninitialised value(s)
+==18869==    at 0x4632B5: ConnectAdapterThread::Process(void*) (ConnectAdapaterThread.cpp:236)
+==18869==    by 0x4AE644: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869== 
+==18869== Conditional jump or move depends on uninitialised value(s)
+==18869==    at 0x464F75: ConnectAdapterThread::Process(void*) (ConnectAdapaterThread.cpp:581)
+==18869==    by 0x4AE644: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869== 
+==18869== Thread 19:
+==18869== Invalid read of size 8
+==18869==    at 0x4476AB: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:326)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869==  Address 0x15530020 is 0 bytes inside a block of size 16 free'd
+==18869==    at 0x4C2A44B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x44F9E8: MONITORING::leaseProcessStartDataReader::~leaseProcessStartDataReader() (dds_cpp_data_TDataReader.gen:594)
+==18869==    by 0x4BFF1B: DDSDataReader::deleteI(DDSDataReader*) (DataReader.cxx:506)
+==18869==    by 0x4C1A46: DDS_DataReader_impl_finalizeI (DataReader.cxx:1460)
+==18869==    by 0x5B0745: DDS_DataReader_finalizeI (DataReader.c:3481)
+==18869==    by 0x83A334: PRESPsService_readerTableRecordFinalize (PsServiceImpl.c:8432)
+==18869==    by 0x9D9A9E: REDATable_deleteRecordNodeTableEA (Table.c:1008)
+==18869==    by 0x9D9C99: REDATable_cleanupRemovedRecordsTableEA (Table.c:1195)
+==18869==    by 0x9D9F34: REDATable_cleanup (Table.c:1369)
+==18869==    by 0x9DCCB7: REDADatabase_cleanup (Database.c:482)
+==18869==    by 0x99C422: RTIEventActiveDatabaseThread_loop (ActiveDatabase.c:170)
+==18869==    by 0x9E89DF: RTIOsapiThreadChild_onSpawned (Thread.c:1136)
+==18869== 
+==18869== Invalid read of size 8
+==18869==    at 0x4478B3: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:359)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869==  Address 0x15530020 is 0 bytes inside a block of size 16 free'd
+==18869==    at 0x4C2A44B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x44F9E8: MONITORING::leaseProcessStartDataReader::~leaseProcessStartDataReader() (dds_cpp_data_TDataReader.gen:594)
+==18869==    by 0x4BFF1B: DDSDataReader::deleteI(DDSDataReader*) (DataReader.cxx:506)
+==18869==    by 0x4C1A46: DDS_DataReader_impl_finalizeI (DataReader.cxx:1460)
+==18869==    by 0x5B0745: DDS_DataReader_finalizeI (DataReader.c:3481)
+==18869==    by 0x83A334: PRESPsService_readerTableRecordFinalize (PsServiceImpl.c:8432)
+==18869==    by 0x9D9A9E: REDATable_deleteRecordNodeTableEA (Table.c:1008)
+==18869==    by 0x9D9C99: REDATable_cleanupRemovedRecordsTableEA (Table.c:1195)
+==18869==    by 0x9D9F34: REDATable_cleanup (Table.c:1369)
+==18869==    by 0x9DCCB7: REDADatabase_cleanup (Database.c:482)
+==18869==    by 0x99C422: RTIEventActiveDatabaseThread_loop (ActiveDatabase.c:170)
+==18869==    by 0x9E89DF: RTIOsapiThreadChild_onSpawned (Thread.c:1136)
+==18869== 
+==18869== Invalid write of size 8
+==18869==    at 0x4B8793: DDSStatusCondition::~DDSStatusCondition() (StatusCondition.cxx:102)
+==18869==    by 0x4478D5: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:359)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869==  Address 0x15530020 is 0 bytes inside a block of size 16 free'd
+==18869==    at 0x4C2A44B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x44F9E8: MONITORING::leaseProcessStartDataReader::~leaseProcessStartDataReader() (dds_cpp_data_TDataReader.gen:594)
+==18869==    by 0x4BFF1B: DDSDataReader::deleteI(DDSDataReader*) (DataReader.cxx:506)
+==18869==    by 0x4C1A46: DDS_DataReader_impl_finalizeI (DataReader.cxx:1460)
+==18869==    by 0x5B0745: DDS_DataReader_finalizeI (DataReader.c:3481)
+==18869==    by 0x83A334: PRESPsService_readerTableRecordFinalize (PsServiceImpl.c:8432)
+==18869==    by 0x9D9A9E: REDATable_deleteRecordNodeTableEA (Table.c:1008)
+==18869==    by 0x9D9C99: REDATable_cleanupRemovedRecordsTableEA (Table.c:1195)
+==18869==    by 0x9D9F34: REDATable_cleanup (Table.c:1369)
+==18869==    by 0x9DCCB7: REDADatabase_cleanup (Database.c:482)
+==18869==    by 0x99C422: RTIEventActiveDatabaseThread_loop (ActiveDatabase.c:170)
+==18869==    by 0x9E89DF: RTIOsapiThreadChild_onSpawned (Thread.c:1136)
+==18869== 
+==18869== Invalid write of size 8
+==18869==    at 0x4CC8B3: DDSCondition::~DDSCondition() (Condition.cxx:87)
+==18869==    by 0x4B87A1: DDSStatusCondition::~DDSStatusCondition() (StatusCondition.cxx:104)
+==18869==    by 0x4478D5: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:359)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869==  Address 0x15530020 is 0 bytes inside a block of size 16 free'd
+==18869==    at 0x4C2A44B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x44F9E8: MONITORING::leaseProcessStartDataReader::~leaseProcessStartDataReader() (dds_cpp_data_TDataReader.gen:594)
+==18869==    by 0x4BFF1B: DDSDataReader::deleteI(DDSDataReader*) (DataReader.cxx:506)
+==18869==    by 0x4C1A46: DDS_DataReader_impl_finalizeI (DataReader.cxx:1460)
+==18869==    by 0x5B0745: DDS_DataReader_finalizeI (DataReader.c:3481)
+==18869==    by 0x83A334: PRESPsService_readerTableRecordFinalize (PsServiceImpl.c:8432)
+==18869==    by 0x9D9A9E: REDATable_deleteRecordNodeTableEA (Table.c:1008)
+==18869==    by 0x9D9C99: REDATable_cleanupRemovedRecordsTableEA (Table.c:1195)
+==18869==    by 0x9D9F34: REDATable_cleanup (Table.c:1369)
+==18869==    by 0x9DCCB7: REDADatabase_cleanup (Database.c:482)
+==18869==    by 0x99C422: RTIEventActiveDatabaseThread_loop (ActiveDatabase.c:170)
+==18869==    by 0x9E89DF: RTIOsapiThreadChild_onSpawned (Thread.c:1136)
+==18869== 
+==18869== Invalid free() / delete / delete[] / realloc()
+==18869==    at 0x4C2A44B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x4B87B6: DDSStatusCondition::~DDSStatusCondition() (StatusCondition.cxx:104)
+==18869==    by 0x4478D5: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:359)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869==  Address 0x15530020 is 0 bytes inside a block of size 16 free'd
+==18869==    at 0x4C2A44B: operator delete(void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x44F9E8: MONITORING::leaseProcessStartDataReader::~leaseProcessStartDataReader() (dds_cpp_data_TDataReader.gen:594)
+==18869==    by 0x4BFF1B: DDSDataReader::deleteI(DDSDataReader*) (DataReader.cxx:506)
+==18869==    by 0x4C1A46: DDS_DataReader_impl_finalizeI (DataReader.cxx:1460)
+==18869==    by 0x5B0745: DDS_DataReader_finalizeI (DataReader.c:3481)
+==18869==    by 0x83A334: PRESPsService_readerTableRecordFinalize (PsServiceImpl.c:8432)
+==18869==    by 0x9D9A9E: REDATable_deleteRecordNodeTableEA (Table.c:1008)
+==18869==    by 0x9D9C99: REDATable_cleanupRemovedRecordsTableEA (Table.c:1195)
+==18869==    by 0x9D9F34: REDATable_cleanup (Table.c:1369)
+==18869==    by 0x9DCCB7: REDADatabase_cleanup (Database.c:482)
+==18869==    by 0x99C422: RTIEventActiveDatabaseThread_loop (ActiveDatabase.c:170)
+==18869==    by 0x9E89DF: RTIOsapiThreadChild_onSpawned (Thread.c:1136)
+==18869== 
+==18869== Invalid read of size 8
+==18869==    at 0x4CE3FC: DDSDomainParticipant_impl::get_default_profile_library() (DomainParticipant.cxx:1360)
+==18869==    by 0x4476EC: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:326)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869==  Address 0x15530070 is 0 bytes inside a block of size 112 free'd
+==18869==    at 0x4C2A739: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x9E6490: RTIOsapiHeap_freeMemoryInternal (heap.c:546)
+==18869==    by 0x77E139: PRESTypePluginDefaultEndpointData_delete (TypePlugin.c:466)
+==18869==    by 0x46FB3C: MONITORING::leaseProcessStartPlugin_on_endpoint_detached(void*) (MonitoringPlugin.cxx:3338)
+==18869==    by 0x850979: PRESPsService_destroyLocalEndpointWithCursor (PsServiceImpl.c:15074)
+==18869==    by 0x85135E: PRESPsService_destroyAllLocalEndpointsInGroupWithCursor (PsServiceImpl.c:15291)
+==18869==    by 0x80C700: PRESPsService_destroyAllLocalEndpointsInGroup (PsService.c:9250)
+==18869==    by 0x5C9D60: DDS_Subscriber_delete_contained_entities (Subscriber.c:3130)
+==18869==    by 0x4C4E81: DDSSubscriber_impl::delete_contained_entities() (Subscriber.cxx:1233)
+==18869==    by 0x445446: RTIConnector::shutdown() (main.cpp:275)
+==18869==    by 0x4460FE: RTIConnector::~RTIConnector() (common.h:114)
+==18869==    by 0x5D2A900: __run_exit_handlers (exit.c:78)
+==18869== 
+==18869== Invalid read of size 8
+==18869==    at 0x4CF343: DDSDomainParticipant_impl::get_publishers(DDSPublisherSeq&) (DomainParticipant.cxx:1772)
+==18869==    by 0x4478D5: StartLineProcessConnector::data_recv(void*) (StartLineProcess.cpp:359)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869==  Address 0x15530070 is 0 bytes inside a block of size 112 free'd
+==18869==    at 0x4C2A739: free (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x9E6490: RTIOsapiHeap_freeMemoryInternal (heap.c:546)
+==18869==    by 0x77E139: PRESTypePluginDefaultEndpointData_delete (TypePlugin.c:466)
+==18869==    by 0x46FB3C: MONITORING::leaseProcessStartPlugin_on_endpoint_detached(void*) (MonitoringPlugin.cxx:3338)
+==18869==    by 0x850979: PRESPsService_destroyLocalEndpointWithCursor (PsServiceImpl.c:15074)
+==18869==    by 0x85135E: PRESPsService_destroyAllLocalEndpointsInGroupWithCursor (PsServiceImpl.c:15291)
+==18869==    by 0x80C700: PRESPsService_destroyAllLocalEndpointsInGroup (PsService.c:9250)
+==18869==    by 0x5C9D60: DDS_Subscriber_delete_contained_entities (Subscriber.c:3130)
+==18869==    by 0x4C4E81: DDSSubscriber_impl::delete_contained_entities() (Subscriber.cxx:1233)
+==18869==    by 0x445446: RTIConnector::shutdown() (main.cpp:275)
+==18869==    by 0x4460FE: RTIConnector::~RTIConnector() (common.h:114)
+==18869==    by 0x5D2A900: __run_exit_handlers (exit.c:78)
+==18869== 
+==18869== 
+==18869== HEAP SUMMARY:
+==18869==     in use at exit: 12,531,725 bytes in 3,394 blocks
+==18869==   total heap usage: 234,737 allocs, 231,344 frees, 49,920,206 bytes allocated
+==18869== 
+==18869== Thread 1:
+==18869== 8 bytes in 1 blocks are definitely lost in loss record 12 of 813
+==18869==    at 0x4C2AF8E: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x446686: StartLineProcessConnector::createReader() (StartLineProcess.cpp:31)
+==18869==    by 0x4465A7: StartLineProcessCollector::start() (StartLineProcess.cpp:7)
+==18869==    by 0x44570C: main (main.cpp:366)
+==18869== 
+==18869== 72 bytes in 2 blocks are possibly lost in loss record 654 of 813
+==18869==    at 0x4C2AF8E: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x5AA83B8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17)
+==18869==    by 0x5AA9D94: char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17)
+==18869==    by 0x5AA9E72: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17)
+==18869==    by 0x46276C: ConnectAdapterThread::ParseTapServerConfigFile(char const*, tapServerInfo&, StartLineProcessConnector*) (ConnectAdapaterThread.cpp:135)
+==18869==    by 0x44155D: CControllerThread::InitiliazeAdapterController(StartLineProcessConnector*) (Controller.cpp:65)
+==18869==    by 0x445656: main (main.cpp:349)
+==18869== 
+==18869== 75 bytes in 2 blocks are possibly lost in loss record 656 of 813
+==18869==    at 0x4C2AF8E: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x5AA83B8: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17)
+==18869==    by 0x5AA9D94: char* std::string::_S_construct<char const*>(char const*, char const*, std::allocator<char> const&, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17)
+==18869==    by 0x5AA9E72: std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.17)
+==18869==    by 0x46279B: ConnectAdapterThread::ParseTapServerConfigFile(char const*, tapServerInfo&, StartLineProcessConnector*) (ConnectAdapaterThread.cpp:135)
+==18869==    by 0x44155D: CControllerThread::InitiliazeAdapterController(StartLineProcessConnector*) (Controller.cpp:65)
+==18869==    by 0x445656: main (main.cpp:349)
+==18869== 
+==18869== 153 bytes in 9 blocks are definitely lost in loss record 690 of 813
+==18869==    at 0x4C29E46: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x9E6135: RTIOsapiHeap_reallocateMemoryInternal (heap.c:397)
+==18869==    by 0x4FCA17: DDS_String_alloc (String.c:48)
+==18869==    by 0x498FA4: MONITORING::tapServerInfo_initialize_ex(MONITORING::tapServerInfo*, int) (Monitoring.cxx:1439)
+==18869==    by 0x454CDD: MONITORING::tapServerInfoTypeSupport::initialize_data_ex(MONITORING::tapServerInfo*, unsigned char) (dds_cpp_data_TTypeSupport.gen:319)
+==18869==    by 0x443F99: CcopyStructure::copyAdapterData(tapServerInfo&, int) (copyStructure.cpp:18)
+==18869==    by 0x464EF0: ConnectAdapterThread::Process(void*) (ConnectAdapaterThread.cpp:578)
+==18869==    by 0x4AE644: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869== 
+==18869== 300 (60 direct, 240 indirect) bytes in 1 blocks are definitely lost in loss record 726 of 813
+==18869==    at 0x4C2B3F8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x5DF4594: nss_parse_service_list (nsswitch.c:678)
+==18869==    by 0x5DF5055: __nss_database_lookup (nsswitch.c:175)
+==18869==    by 0x168C1623: ???
+==18869==    by 0x5DADBFC: getpwuid_r@@GLIBC_2.2.5 (getXXbyYY_r.c:256)
+==18869==    by 0x5053298: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x5041EF9: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x5050A69: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x50522A9: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x5042AA5: PQconnectPoll (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x5043EBD: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x504486E: PQconnectdb (in /usr/lib/libpq.so.5.4)
+==18869== 
+==18869== 304 bytes in 1 blocks are possibly lost in loss record 727 of 813
+==18869==    at 0x4C29E46: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x4012084: _dl_allocate_tls (dl-tls.c:297)
+==18869==    by 0x5493ABC: pthread_create@@GLIBC_2.2.5 (allocatestack.c:571)
+==18869==    by 0x447AD2: StartLineProcessConnector::startReader(StartLineProcessCollector*) (StartLineProcess.h:66)
+==18869==    by 0x4465C4: StartLineProcessCollector::start() (StartLineProcess.cpp:7)
+==18869==    by 0x44570C: main (main.cpp:366)
+==18869== 
+==18869== 374 bytes in 22 blocks are definitely lost in loss record 731 of 813
+==18869==    at 0x4C29E46: calloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x9E6135: RTIOsapiHeap_reallocateMemoryInternal (heap.c:397)
+==18869==    by 0x4FCA17: DDS_String_alloc (String.c:48)
+==18869==    by 0x496290: MONITORING::leaseLineInfo_initialize_ex(MONITORING::leaseLineInfo*, int) (Monitoring.cxx:1224)
+==18869==    by 0x4969BA: MONITORING::leaseLineInfoSeq_set_maximum(MONITORING::leaseLineInfoSeq*, int) (dds_c_sequence_TSeq.gen:405)
+==18869==    by 0x499023: MONITORING::tapServerInfo_initialize_ex(MONITORING::tapServerInfo*, int) (Monitoring.cxx:1451)
+==18869==    by 0x454CDD: MONITORING::tapServerInfoTypeSupport::initialize_data_ex(MONITORING::tapServerInfo*, unsigned char) (dds_cpp_data_TTypeSupport.gen:319)
+==18869==    by 0x443F99: CcopyStructure::copyAdapterData(tapServerInfo&, int) (copyStructure.cpp:18)
+==18869==    by 0x464EF0: ConnectAdapterThread::Process(void*) (ConnectAdapaterThread.cpp:578)
+==18869==    by 0x4AE644: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869== 
+==18869== 3,272 (200 direct, 3,072 indirect) bytes in 1 blocks are definitely lost in loss record 788 of 813
+==18869==    at 0x4C2B3F8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x50459F3: PQmakeEmptyPGresult (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x504FA40: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x5047767: PQgetResult (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x5047AB7: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x448F90: DBConnection::getQueryResult(std::map<long, std::string, std::less<long>, std::allocator<std::pair<long const, std::string> > >&, char*, char*, char*, char*, char*, char*) (DBConnection.cpp:50)
+==18869==    by 0x46310B: ConnectAdapterThread::Process(void*) (ConnectAdapaterThread.cpp:205)
+==18869==    by 0x4AE644: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869== 
+==18869== 32,808 bytes in 1 blocks are definitely lost in loss record 803 of 813
+==18869==    at 0x4C2B3F8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x5DAA50A: __alloc_dir (opendir.c:202)
+==18869==    by 0x442952: CLogger::SetFileName(char const*, char const*) (logger.cpp:183)
+==18869==    by 0x44279B: CLogger::StartLogger(char const*, int, char const*) (logger.cpp:143)
+==18869==    by 0x4455F4: main (main.cpp:339)
+==18869== 
+==18869== 717,287 (1,760 direct, 715,527 indirect) bytes in 2 blocks are definitely lost in loss record 812 of 813
+==18869==    at 0x4C2B3F8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==18869==    by 0x503FE8A: ??? (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x50447B5: PQconnectStart (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x5044855: PQconnectdb (in /usr/lib/libpq.so.5.4)
+==18869==    by 0x448EA4: DBConnection::getQueryResult(std::map<long, std::string, std::less<long>, std::allocator<std::pair<long const, std::string> > >&, char*, char*, char*, char*, char*, char*) (DBConnection.cpp:28)
+==18869==    by 0x46310B: ConnectAdapterThread::Process(void*) (ConnectAdapaterThread.cpp:205)
+==18869==    by 0x4AE644: CBasicThread::ThreadProc(void*) (basicthread.cpp:49)
+==18869==    by 0x5492E99: start_thread (pthread_create.c:308)
+==18869==    by 0x5DE2CBC: clone (clone.S:112)
+==18869== 
+==18869== LEAK SUMMARY:
+==18869==    definitely lost: 35,363 bytes in 37 blocks
+==18869==    indirectly lost: 718,839 bytes in 191 blocks
+==18869==      possibly lost: 451 bytes in 5 blocks
+==18869==    still reachable: 11,777,072 bytes in 3,161 blocks
+==18869==         suppressed: 0 bytes in 0 blocks
+==18869== Reachable blocks (those to which a pointer was found) are not shown.
+==18869== To see them, rerun with: --leak-check=full --show-reachable=yes
+==18869== 
+==18869== For counts of detected and suppressed errors, rerun with: -v
+==18869== Use --track-origins=yes to see where uninitialised values come from
+==18869== ERROR SUMMARY: 26 errors from 19 contexts (suppressed: 2 from 2)

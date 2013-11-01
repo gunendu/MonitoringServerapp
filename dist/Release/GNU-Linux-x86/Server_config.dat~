@@ -1,0 +1,115 @@
+			[TotalServers]
+
+NoOfConnections		  =   2
+
+			[server1]
+
+Ipadress                 =   192.168.20.95 			
+	
+user           	  	 =    mint				
+
+password                 =    ga34567io
+
+dbUserName		 =    money
+
+dbPassword		 =    billion
+
+dbName			 =    mani
+
+dbPort			 =    5432
+
+startPath		=     /home/mint/scripts
+
+stopPath		=     /home/mint/ga/bin
+
+
+NumberOfProcess           =   10
+
+Process1		  =    xml
+
+Process2		  =    stp-nnf	
+
+Process3		  =    stp-conf
+
+Process4		  =    stp-report
+
+Process5		  =    ord
+
+Process6		  =    ord_thinker
+
+Process7		  =    aurora_feed
+
+Process8		  =    tapconnect
+
+Process9		  =    feeder_gen
+
+Process10		  =    bridge_gen	
+
+Space1	 		  =     /tmp
+
+Space2             	  =    /home
+
+Space3		 	  =    /var
+
+Line name		  = FO
+
+Line noOfConn		  =    12
+
+			[server2]
+
+Ipadress                 =   192.168.20.179 			
+	
+user           	  	 =    dolat				
+
+password                 =    ga34567io 
+
+startPath		=     /home/mint/scripts
+
+NumberOfProcess           =   10 
+
+
+Process1		  =    bridge
+
+Process2		  =    stp-nnf	
+
+Process3		  =    stp-conf
+
+Process4		  =    stp-nnf_spread
+
+Process5		  =    ord
+
+Process6		  =    ord_thinker
+
+Process7		  =    aurora_feed
+
+Process8		  =    tapconnect
+
+Process9		  =    feeder_gen
+
+Process10		  =    bridge_gen	
+
+Space1	 		  =     /tmp
+
+Space2             	  =    /home
+
+Space3		 	  =    /var
+
+Line name		  = FO
+
+Line noOfConn		  =    12
+
+
+
+
+
+
+			
+
+	
+	
+
+
+
+
+
+

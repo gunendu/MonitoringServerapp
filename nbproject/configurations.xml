@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="80">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>ConnectAdapterThread.h</itemPath>
+      <itemPath>Controller.h</itemPath>
+      <itemPath>DBConnection.h</itemPath>
+      <itemPath>Monitoring.h</itemPath>
+      <itemPath>MonitoringSupport.h</itemPath>
+      <itemPath>StartLineProcess.h</itemPath>
+      <itemPath>cfgparser.h</itemPath>
+      <itemPath>common.h</itemPath>
+      <itemPath>commonfunctions.h</itemPath>
+      <itemPath>copyStructure.h</itemPath>
+      <itemPath>dataTypes.h</itemPath>
+      <itemPath>ddsinterface.h</itemPath>
+      <itemPath>defines.h</itemPath>
+      <itemPath>includes.h</itemPath>
+      <itemPath>ipcpublisher.h</itemPath>
+      <itemPath>logger.h</itemPath>
+      <itemPath>serverConnectThread.h</itemPath>
+      <itemPath>serverConnectThread2.h</itemPath>
+      <itemPath>serverConnectThread3.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ConnectAdapaterThread.cpp</itemPath>
+      <itemPath>Controller.cpp</itemPath>
+      <itemPath>DBConnection.cpp</itemPath>
+      <itemPath>Monitoring.cxx</itemPath>
+      <itemPath>Monitoring.idl</itemPath>
+      <itemPath>MonitoringPlugin.cxx</itemPath>
+      <itemPath>MonitoringSupport.cxx</itemPath>
+      <itemPath>StartLineProcess.cpp</itemPath>
+      <itemPath>basicthread.cpp</itemPath>
+      <itemPath>cfgparser.cc</itemPath>
+      <itemPath>commonfunctions.cpp</itemPath>
+      <itemPath>copyStructure.cpp</itemPath>
+      <itemPath>ddsinterface.cpp</itemPath>
+      <itemPath>ipcpublisher.cpp</itemPath>
+      <itemPath>logger.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>serverConnectThread.cpp</itemPath>
+      <itemPath>serverConnectThread2.cpp</itemPath>
+      <itemPath>serverConnectThread3.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>/opt/rti/ndds.4.5f/include/ndds</pElem>
+            <pElem>/opt/rti/ndds.4.5f/include</pElem>
+            <pElem>../../tbb40_20120613oss/include</pElem>
+          </incDir>
+          <commandLine>-g3 -pg</commandLine>
+          <preprocessorList>
+            <Elem>RTI_64BIT</Elem>
+            <Elem>RTI_LINUX</Elem>
+            <Elem>RTI_UNIX</Elem>
+            <Elem>STD_STL</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/opt/rti/ndds.4.5f/lib/x64Linux2.6gcc4.4.3</pElem>
+            <pElem>/usr/local/lib</pElem>
+            <pElem>/home/dunendhu/tbb40_20120613oss/lib/intel64/cc4.1.0_libc2.4_kernel2.6.16.21</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>/opt/rti/ndds.4.5f/lib/x64Linux2.6gcc4.4.3</pElem>
+            <pElem>/usr/local/lib</pElem>
+            <pElem>/home/dunendhu/tbb40_20120613oss/lib/intel64/cc4.1.0_libc2.4_kernel2.6.16.21</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibLibItem>nddscppzd</linkerLibLibItem>
+            <linkerLibLibItem>nddsczd</linkerLibLibItem>
+            <linkerLibLibItem>nddscorezd</linkerLibLibItem>
+            <linkerLibLibItem>dl</linkerLibLibItem>
+            <linkerLibLibItem>nsl</linkerLibLibItem>
+            <linkerLibLibItem>pq</linkerLibLibItem>
+            <linkerLibLibItem>ssh2</linkerLibLibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>tbb</linkerLibLibItem>
+            <linkerLibLibItem>tbbmalloc</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-static-libgcc -pg</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <incDir>
+            <pElem>/opt/rti/ndds.4.5f/include/ndds</pElem>
+            <pElem>/opt/rti/ndds.4.5f/include</pElem>
+            <pElem>../../tbb40_20120613oss/include</pElem>
+          </incDir>
+          <commandLine>-g3 -pg</commandLine>
+          <preprocessorList>
+            <Elem>RTI_64BIT</Elem>
+            <Elem>RTI_LINUX</Elem>
+            <Elem>RTI_UNIX</Elem>
+            <Elem>STD_STL</Elem>
+            <Elem>__STDC_FORMAT_MACROS</Elem>
+          </preprocessorList>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>/opt/rti/ndds.4.5f/lib/x64Linux2.6gcc4.4.3</pElem>
+            <pElem>/usr/local/lib</pElem>
+            <pElem>/home/dunendhu/tbb40_20120613oss/lib/intel64/cc4.1.0_libc2.4_kernel2.6.16.21</pElem>
+          </linkerAddLib>
+          <linkerDynSerch>
+            <pElem>/opt/rti/ndds.4.5f/lib/x64Linux2.6gcc4.4.3</pElem>
+            <pElem>/usr/local/lib</pElem>
+            <pElem>/home/dunendhu/tbb40_20120613oss/lib/intel64/cc4.1.0_libc2.4_kernel2.6.16.21</pElem>
+          </linkerDynSerch>
+          <linkerLibItems>
+            <linkerLibLibItem>nddscppzd</linkerLibLibItem>
+            <linkerLibLibItem>nddsczd</linkerLibLibItem>
+            <linkerLibLibItem>nddscorezd</linkerLibLibItem>
+            <linkerLibLibItem>dl</linkerLibLibItem>
+            <linkerLibLibItem>nsl</linkerLibLibItem>
+            <linkerLibLibItem>pq</linkerLibLibItem>
+            <linkerLibLibItem>ssh2</linkerLibLibItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+            <linkerLibLibItem>rt</linkerLibLibItem>
+            <linkerLibLibItem>tbb</linkerLibLibItem>
+            <linkerLibLibItem>tbbmalloc</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>-static-libgcc -pg</commandLine>
+        </linkerTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

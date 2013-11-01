@@ -1,0 +1,2143 @@
+[15:03:44.663] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:44.663] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:03:44.663] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:03:44.663] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:44.663] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:03:44.663] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:03:44.663] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:44.663] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:03:44.663] (:copyStructure.cpp:copyData(:115))state /home
+[15:03:44.663] (:copyStructure.cpp:copyData(:115))state /var
+[15:03:45.634] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:45.634] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:45.634] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:45.634] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:46.634] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:46.635] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:46.635] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:46.635] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:47.635] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:47.635] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:47.635] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:47.635] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:47.679] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.52:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:47.730] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.40:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:47.782] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.35:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:47.840] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.51:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:47.890] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.36:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:47.940] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.114:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:47.941] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:47.979] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s xml
+
+[15:03:47.989] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s xml lnreturncode 0
+
+[15:03:47.989] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:47.989] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:47.989] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.029] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:03:48.039] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-nnf lnreturncode 0
+
+[15:03:48.039] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.039] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.039] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.069] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:03:48.079] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-conf lnreturncode 0
+
+[15:03:48.079] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.079] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.079] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.112] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-report
+
+[15:03:48.123] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-report lnreturncode 0
+
+[15:03:48.123] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.123] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.123] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.159] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:03:48.169] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord lnreturncode 0
+
+[15:03:48.169] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.169] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.169] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.209] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:03:48.219] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord_thinker lnreturncode 0
+
+[15:03:48.219] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.219] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.219] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.259] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:03:48.269] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:03:48.269] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.269] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.269] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.309] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:03:48.319] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s tapconnect lnreturncode 0
+
+[15:03:48.319] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.319] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.319] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.359] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:03:48.369] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:03:48.369] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.369] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.369] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:48.409] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:03:48.419] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:03:48.419] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:48.419] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:48.459] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:48.509] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:48.559] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:48.565] (:copyStructure.cpp:copyData(:82))name 192.168.20.95
+[15:03:48.565] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.95
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: xml
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name xml
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: stp-report
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name stp-report
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name ord
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:03:48.565] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:03:48.565] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:48.565] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:03:48.565] (:copyStructure.cpp:copyData(:115))state /home
+[15:03:48.565] (:copyStructure.cpp:copyData(:115))state /var
+[15:03:48.565] (:copyStructure.cpp:copyData(:148))lineId 5802
+[15:03:48.565] (:copyStructure.cpp:copyData(:148))lineId 22046
+[15:03:48.565] (:copyStructure.cpp:copyData(:148))lineId 24212
+[15:03:48.565] (:copyStructure.cpp:copyData(:148))lineId 25167
+[15:03:48.565] (:copyStructure.cpp:copyData(:148))lineId 26245
+[15:03:48.565] (:copyStructure.cpp:copyData(:148))lineId 32609
+[15:03:48.635] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:48.635] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:48.635] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:48.635] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:49.635] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:49.635] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:49.635] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:49.635] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:50.567] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.568] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge
+
+[15:03:50.575] (serverConnectThread.cpp:Process(:726))::commandBuffer 26153
+-s bridge lnreturncode 6
+
+[15:03:50.575] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:50.575] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.620] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:03:50.627] (serverConnectThread.cpp:Process(:726))::commandBuffer 26161
+-s stp-nnf lnreturncode 6
+
+[15:03:50.627] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:50.627] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.635] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:50.635] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:50.635] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:50.635] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:50.670] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:03:50.677] (serverConnectThread.cpp:Process(:726))::commandBuffer 26173
+-s stp-conf lnreturncode 6
+
+[15:03:50.677] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:50.677] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.720] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf_spread
+
+[15:03:50.727] (serverConnectThread.cpp:Process(:726))::commandBuffer 26169
+-s stp-nnf_spread lnreturncode 6
+
+[15:03:50.727] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:50.727] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.771] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:03:50.778] (serverConnectThread.cpp:Process(:726))::commandBuffer 26217
+-s ord lnreturncode 6
+
+[15:03:50.778] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:50.778] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.820] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:03:50.827] (serverConnectThread.cpp:Process(:726))::commandBuffer 26214
+-s ord_thinker lnreturncode 6
+
+[15:03:50.827] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:50.827] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.870] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:03:50.877] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:03:50.877] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:50.877] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:50.877] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.920] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:03:50.927] (serverConnectThread.cpp:Process(:726))::commandBuffer 25473
+-s tapconnect lnreturncode 6
+
+[15:03:50.927] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:50.927] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:50.970] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:03:50.977] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:03:50.977] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:50.977] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:50.977] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:51.021] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:03:51.027] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:03:51.027] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:51.027] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:51.070] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:51.120] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:51.170] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:51.174] (:copyStructure.cpp:copyData(:82))name 192.168.20.179
+[15:03:51.174] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.179
+[15:03:51.174] (:copyStructure.cpp:copyData(:99))process name :: bridge
+[15:03:51.174] (:copyStructure.cpp:copyData(:105))name bridge
+[15:03:51.174] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:51.174] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:03:51.174] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:03:51.174] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:51.174] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:03:51.174] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:03:51.174] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:51.174] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf_spread
+[15:03:51.174] (:copyStructure.cpp:copyData(:105))name stp-nnf_spread
+[15:03:51.174] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:51.174] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:03:51.174] (:copyStructure.cpp:copyData(:105))name ord
+[15:03:51.174] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:51.174] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:03:51.174] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:03:51.174] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:51.174] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:03:51.174] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:03:51.175] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:51.175] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:03:51.175] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:03:51.175] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:51.175] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:03:51.175] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:03:51.175] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:51.175] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:03:51.175] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:03:51.175] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:51.175] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:03:51.175] (:copyStructure.cpp:copyData(:115))state /home
+[15:03:51.175] (:copyStructure.cpp:copyData(:115))state /var
+[15:03:51.635] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:51.635] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:51.635] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:51.635] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:52.636] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:52.636] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:52.636] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:52.636] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:53.636] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:53.636] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:53.636] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:53.636] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:54.189] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.52:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:54.240] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.40:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:54.291] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.35:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:54.340] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.51:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:54.391] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.36:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:54.440] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.114:9602.*ESTABLISHED" lnreturncode 2
+
+[15:03:54.441] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.479] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s xml
+
+[15:03:54.489] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s xml lnreturncode 0
+
+[15:03:54.489] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.489] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.489] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.529] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:03:54.539] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-nnf lnreturncode 0
+
+[15:03:54.539] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.539] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.540] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.579] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:03:54.589] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-conf lnreturncode 0
+
+[15:03:54.589] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.589] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.589] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.629] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-report
+
+[15:03:54.636] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:54.636] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:54.636] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:54.636] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:54.639] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-report lnreturncode 0
+
+[15:03:54.640] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.640] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.640] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.679] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:03:54.689] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord lnreturncode 0
+
+[15:03:54.689] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.689] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.689] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.729] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:03:54.739] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord_thinker lnreturncode 0
+
+[15:03:54.740] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.740] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.740] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.779] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:03:54.789] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:03:54.789] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.789] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.789] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.829] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:03:54.839] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s tapconnect lnreturncode 0
+
+[15:03:54.840] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.840] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.840] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.879] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:03:54.889] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:03:54.889] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.889] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.890] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:54.929] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:03:54.939] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:03:54.939] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:54.939] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:54.979] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:55.029] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:55.079] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:55.085] (:copyStructure.cpp:copyData(:82))name 192.168.20.95
+[15:03:55.085] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.95
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: xml
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name xml
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: stp-report
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name stp-report
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name ord
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:03:55.085] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:03:55.085] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:55.085] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:03:55.085] (:copyStructure.cpp:copyData(:115))state /home
+[15:03:55.085] (:copyStructure.cpp:copyData(:115))state /var
+[15:03:55.085] (:copyStructure.cpp:copyData(:148))lineId 5802
+[15:03:55.085] (:copyStructure.cpp:copyData(:148))lineId 22046
+[15:03:55.085] (:copyStructure.cpp:copyData(:148))lineId 24212
+[15:03:55.085] (:copyStructure.cpp:copyData(:148))lineId 25167
+[15:03:55.085] (:copyStructure.cpp:copyData(:148))lineId 26245
+[15:03:55.085] (:copyStructure.cpp:copyData(:148))lineId 32609
+[15:03:55.636] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:55.636] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:55.636] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:55.636] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:56.636] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:56.636] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:56.636] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:56.636] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:57.087] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.088] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge
+
+[15:03:57.095] (serverConnectThread.cpp:Process(:726))::commandBuffer 26153
+-s bridge lnreturncode 6
+
+[15:03:57.095] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:57.095] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.141] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:03:57.148] (serverConnectThread.cpp:Process(:726))::commandBuffer 26161
+-s stp-nnf lnreturncode 6
+
+[15:03:57.148] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:57.148] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.191] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:03:57.198] (serverConnectThread.cpp:Process(:726))::commandBuffer 26173
+-s stp-conf lnreturncode 6
+
+[15:03:57.198] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:57.198] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.241] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf_spread
+
+[15:03:57.248] (serverConnectThread.cpp:Process(:726))::commandBuffer 26169
+-s stp-nnf_spread lnreturncode 6
+
+[15:03:57.248] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:57.248] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.291] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:03:57.298] (serverConnectThread.cpp:Process(:726))::commandBuffer 26217
+-s ord lnreturncode 6
+
+[15:03:57.298] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:57.298] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.341] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:03:57.348] (serverConnectThread.cpp:Process(:726))::commandBuffer 26214
+-s ord_thinker lnreturncode 6
+
+[15:03:57.348] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:57.348] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.392] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:03:57.400] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:03:57.400] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:57.400] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:57.400] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.441] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:03:57.448] (serverConnectThread.cpp:Process(:726))::commandBuffer 25473
+-s tapconnect lnreturncode 6
+
+[15:03:57.448] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:03:57.448] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.491] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:03:57.498] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:03:57.498] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:57.498] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:57.498] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:03:57.541] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:03:57.548] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:03:57.548] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:03:57.548] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:03:57.591] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:57.637] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:57.637] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:57.637] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:57.637] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:57.641] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:57.691] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:03:57.695] (:copyStructure.cpp:copyData(:82))name 192.168.20.179
+[15:03:57.695] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.179
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: bridge
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name bridge
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf_spread
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name stp-nnf_spread
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name ord
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 1
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:57.695] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:03:57.695] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:03:57.695] (:copyStructure.cpp:copyData(:106))state 0
+[15:03:57.695] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:03:57.695] (:copyStructure.cpp:copyData(:115))state /home
+[15:03:57.695] (:copyStructure.cpp:copyData(:115))state /var
+[15:03:58.637] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:58.637] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:58.637] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:58.637] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:03:59.637] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:03:59.637] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:03:59.637] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:03:59.637] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:00.637] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:00.637] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:00.637] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:00.637] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:00.710] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.52:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:00.761] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.40:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:00.821] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.35:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:00.871] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.51:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:00.921] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.36:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:00.971] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.114:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:00.971] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.010] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s xml
+
+[15:04:01.020] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s xml lnreturncode 0
+
+[15:04:01.020] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.020] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.020] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.060] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:01.070] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-nnf lnreturncode 0
+
+[15:04:01.070] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.070] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.070] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.110] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:01.120] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-conf lnreturncode 0
+
+[15:04:01.120] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.120] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.120] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.160] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-report
+
+[15:04:01.170] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-report lnreturncode 0
+
+[15:04:01.170] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.170] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.170] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.210] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:01.220] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord lnreturncode 0
+
+[15:04:01.220] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.220] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.220] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.260] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:01.270] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord_thinker lnreturncode 0
+
+[15:04:01.270] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.270] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.270] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.310] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:01.320] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:01.320] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.320] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.320] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.360] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:01.370] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s tapconnect lnreturncode 0
+
+[15:04:01.370] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.370] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.370] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.410] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:01.420] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:01.420] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.420] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.420] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:01.460] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:01.470] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:01.470] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:01.470] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:01.510] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:01.560] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:01.600] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:01.605] (:copyStructure.cpp:copyData(:82))name 192.168.20.95
+[15:04:01.605] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.95
+[15:04:01.605] (:copyStructure.cpp:copyData(:99))process name :: xml
+[15:04:01.605] (:copyStructure.cpp:copyData(:105))name xml
+[15:04:01.605] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.605] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:01.605] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:01.605] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.605] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:01.605] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:01.605] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.605] (:copyStructure.cpp:copyData(:99))process name :: stp-report
+[15:04:01.605] (:copyStructure.cpp:copyData(:105))name stp-report
+[15:04:01.605] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.605] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:01.605] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:01.606] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.606] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:01.606] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:01.606] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.606] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:01.606] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:01.606] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.606] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:01.606] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:01.606] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.606] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:01.606] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:01.606] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.606] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:01.606] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:01.606] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:01.606] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:01.606] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:01.606] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:01.606] (:copyStructure.cpp:copyData(:148))lineId 5802
+[15:04:01.606] (:copyStructure.cpp:copyData(:148))lineId 22046
+[15:04:01.606] (:copyStructure.cpp:copyData(:148))lineId 24212
+[15:04:01.606] (:copyStructure.cpp:copyData(:148))lineId 25167
+[15:04:01.606] (:copyStructure.cpp:copyData(:148))lineId 26245
+[15:04:01.606] (:copyStructure.cpp:copyData(:148))lineId 32609
+[15:04:01.637] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:01.637] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:01.637] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:01.637] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:02.638] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:02.638] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:02.638] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:02.638] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:03.610] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.610] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge
+
+[15:04:03.617] (serverConnectThread.cpp:Process(:726))::commandBuffer 26153
+-s bridge lnreturncode 6
+
+[15:04:03.617] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:03.617] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.638] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:03.638] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:03.638] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:03.638] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:03.662] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:03.669] (serverConnectThread.cpp:Process(:726))::commandBuffer 26161
+-s stp-nnf lnreturncode 6
+
+[15:04:03.669] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:03.669] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.712] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:03.719] (serverConnectThread.cpp:Process(:726))::commandBuffer 26173
+-s stp-conf lnreturncode 6
+
+[15:04:03.719] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:03.719] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.762] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf_spread
+
+[15:04:03.769] (serverConnectThread.cpp:Process(:726))::commandBuffer 26169
+-s stp-nnf_spread lnreturncode 6
+
+[15:04:03.769] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:03.769] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.813] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:03.820] (serverConnectThread.cpp:Process(:726))::commandBuffer 26217
+-s ord lnreturncode 6
+
+[15:04:03.820] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:03.820] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.853] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:03.859] (serverConnectThread.cpp:Process(:726))::commandBuffer 26214
+-s ord_thinker lnreturncode 6
+
+[15:04:03.859] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:03.859] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.903] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:03.909] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:03.909] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:03.909] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:03.909] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:03.952] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:03.959] (serverConnectThread.cpp:Process(:726))::commandBuffer 25473
+-s tapconnect lnreturncode 6
+
+[15:04:03.959] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:03.959] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:04.002] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:04.009] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:04.009] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:04.009] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:04.009] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:04.052] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:04.059] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:04.059] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:04.059] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:04.103] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:04.152] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:04.203] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:04.206] (:copyStructure.cpp:copyData(:82))name 192.168.20.179
+[15:04:04.206] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.179
+[15:04:04.206] (:copyStructure.cpp:copyData(:99))process name :: bridge
+[15:04:04.206] (:copyStructure.cpp:copyData(:105))name bridge
+[15:04:04.206] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:04.206] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:04.206] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:04.206] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:04.206] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:04.206] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:04.206] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:04.206] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf_spread
+[15:04:04.206] (:copyStructure.cpp:copyData(:105))name stp-nnf_spread
+[15:04:04.206] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:04.206] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:04.206] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:04.206] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:04.206] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:04.206] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:04.206] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:04.207] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:04.207] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:04.207] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:04.207] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:04.207] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:04.207] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:04.207] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:04.207] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:04.207] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:04.207] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:04.207] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:04.207] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:04.207] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:04.207] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:04.207] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:04.638] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:04.638] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:04.638] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:04.638] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:05.638] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:05.638] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:05.638] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:05.638] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:06.638] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:06.639] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:06.639] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:06.639] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:07.225] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.52:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:07.271] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.40:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:07.321] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.35:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:07.371] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.51:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:07.417] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.36:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:07.471] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.114:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:07.472] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.510] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s xml
+
+[15:04:07.520] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s xml lnreturncode 0
+
+[15:04:07.520] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.520] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.520] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.560] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:07.570] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-nnf lnreturncode 0
+
+[15:04:07.570] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.570] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.570] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.610] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:07.620] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-conf lnreturncode 0
+
+[15:04:07.620] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.620] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.620] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.639] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:07.639] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:07.639] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:07.639] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:07.660] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-report
+
+[15:04:07.670] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-report lnreturncode 0
+
+[15:04:07.670] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.670] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.670] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.710] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:07.720] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord lnreturncode 0
+
+[15:04:07.720] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.720] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.720] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.760] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:07.770] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord_thinker lnreturncode 0
+
+[15:04:07.770] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.770] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.770] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.806] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:07.816] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:07.816] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.816] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.816] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.850] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:07.860] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s tapconnect lnreturncode 0
+
+[15:04:07.860] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.860] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.860] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.900] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:07.910] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:07.910] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.910] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:07.910] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:07.950] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:07.960] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:07.960] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:07.960] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:08.000] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:08.050] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:08.100] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:08.106] (:copyStructure.cpp:copyData(:82))name 192.168.20.95
+[15:04:08.106] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.95
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: xml
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name xml
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: stp-report
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name stp-report
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:08.106] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:08.106] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:08.106] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:08.106] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:08.106] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:08.106] (:copyStructure.cpp:copyData(:148))lineId 5802
+[15:04:08.106] (:copyStructure.cpp:copyData(:148))lineId 22046
+[15:04:08.106] (:copyStructure.cpp:copyData(:148))lineId 24212
+[15:04:08.106] (:copyStructure.cpp:copyData(:148))lineId 25167
+[15:04:08.106] (:copyStructure.cpp:copyData(:148))lineId 26245
+[15:04:08.106] (:copyStructure.cpp:copyData(:148))lineId 32609
+[15:04:08.639] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:08.639] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:08.639] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:08.639] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:09.639] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:09.639] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:09.639] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:09.639] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:10.110] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.111] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge
+
+[15:04:10.118] (serverConnectThread.cpp:Process(:726))::commandBuffer 26153
+-s bridge lnreturncode 6
+
+[15:04:10.118] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:10.118] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.163] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:10.170] (serverConnectThread.cpp:Process(:726))::commandBuffer 26161
+-s stp-nnf lnreturncode 6
+
+[15:04:10.170] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:10.170] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.214] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:10.220] (serverConnectThread.cpp:Process(:726))::commandBuffer 26173
+-s stp-conf lnreturncode 6
+
+[15:04:10.220] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:10.220] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.252] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf_spread
+
+[15:04:10.259] (serverConnectThread.cpp:Process(:726))::commandBuffer 26169
+-s stp-nnf_spread lnreturncode 6
+
+[15:04:10.259] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:10.259] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.292] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:10.299] (serverConnectThread.cpp:Process(:726))::commandBuffer 26217
+-s ord lnreturncode 6
+
+[15:04:10.299] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:10.299] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.344] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:10.351] (serverConnectThread.cpp:Process(:726))::commandBuffer 26214
+-s ord_thinker lnreturncode 6
+
+[15:04:10.351] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:10.351] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.382] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:10.389] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:10.389] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:10.389] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:10.389] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.434] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:10.441] (serverConnectThread.cpp:Process(:726))::commandBuffer 25473
+-s tapconnect lnreturncode 6
+
+[15:04:10.441] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:10.441] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.484] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:10.491] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:10.491] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:10.491] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:10.491] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:10.535] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:10.542] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:10.542] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:10.542] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:10.584] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:10.634] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:10.639] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:10.639] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:10.639] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:10.639] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:10.684] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:10.688] (:copyStructure.cpp:copyData(:82))name 192.168.20.179
+[15:04:10.688] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.179
+[15:04:10.688] (:copyStructure.cpp:copyData(:99))process name :: bridge
+[15:04:10.688] (:copyStructure.cpp:copyData(:105))name bridge
+[15:04:10.688] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:10.688] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:10.688] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:10.688] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:10.688] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:10.688] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:10.689] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf_spread
+[15:04:10.689] (:copyStructure.cpp:copyData(:105))name stp-nnf_spread
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:10.689] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:10.689] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:10.689] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:10.689] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:10.689] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:10.689] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:10.689] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:10.689] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:10.689] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:10.689] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:10.689] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:10.689] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:10.689] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:10.689] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:10.689] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:10.689] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:11.640] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:11.640] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:11.640] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:11.640] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:12.640] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:12.640] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:12.640] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:12.640] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:13.640] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:13.640] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:13.640] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:13.640] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:13.705] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.52:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:13.752] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.40:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:13.802] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.35:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:13.852] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.51:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:13.902] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.36:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:13.952] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.114:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:13.952] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:13.990] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s xml
+
+[15:04:14.001] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s xml lnreturncode 0
+
+[15:04:14.001] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.001] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.001] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.040] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:14.050] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-nnf lnreturncode 0
+
+[15:04:14.050] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.050] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.051] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.090] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:14.101] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-conf lnreturncode 0
+
+[15:04:14.101] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.101] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.101] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.140] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-report
+
+[15:04:14.150] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-report lnreturncode 0
+
+[15:04:14.150] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.150] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.151] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.190] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:14.201] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord lnreturncode 0
+
+[15:04:14.201] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.201] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.201] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.240] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:14.251] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord_thinker lnreturncode 0
+
+[15:04:14.251] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.251] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.251] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.290] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:14.300] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:14.300] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.300] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.301] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.340] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:14.350] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s tapconnect lnreturncode 0
+
+[15:04:14.351] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.351] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.351] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.390] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:14.400] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:14.400] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.400] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.401] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:14.440] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:14.451] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:14.451] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:14.451] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:14.480] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:14.530] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:14.580] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:14.586] (:copyStructure.cpp:copyData(:82))name 192.168.20.95
+[15:04:14.586] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.95
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: xml
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name xml
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: stp-report
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name stp-report
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:14.586] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:14.586] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:14.586] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:14.586] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:14.586] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:14.586] (:copyStructure.cpp:copyData(:148))lineId 5802
+[15:04:14.586] (:copyStructure.cpp:copyData(:148))lineId 22046
+[15:04:14.586] (:copyStructure.cpp:copyData(:148))lineId 24212
+[15:04:14.586] (:copyStructure.cpp:copyData(:148))lineId 25167
+[15:04:14.586] (:copyStructure.cpp:copyData(:148))lineId 26245
+[15:04:14.586] (:copyStructure.cpp:copyData(:148))lineId 32609
+[15:04:14.640] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:14.640] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:14.640] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:14.640] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:15.641] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:15.641] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:15.641] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:15.641] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:16.595] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.596] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge
+
+[15:04:16.603] (serverConnectThread.cpp:Process(:726))::commandBuffer 26153
+-s bridge lnreturncode 6
+
+[15:04:16.603] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:16.603] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.641] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:16.641] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:16.641] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:16.641] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:16.645] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:16.652] (serverConnectThread.cpp:Process(:726))::commandBuffer 26161
+-s stp-nnf lnreturncode 6
+
+[15:04:16.652] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:16.652] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.695] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:16.702] (serverConnectThread.cpp:Process(:726))::commandBuffer 26173
+-s stp-conf lnreturncode 6
+
+[15:04:16.702] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:16.702] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.745] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf_spread
+
+[15:04:16.752] (serverConnectThread.cpp:Process(:726))::commandBuffer 26169
+-s stp-nnf_spread lnreturncode 6
+
+[15:04:16.752] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:16.752] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.795] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:16.802] (serverConnectThread.cpp:Process(:726))::commandBuffer 26217
+-s ord lnreturncode 6
+
+[15:04:16.802] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:16.802] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.845] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:16.852] (serverConnectThread.cpp:Process(:726))::commandBuffer 26214
+-s ord_thinker lnreturncode 6
+
+[15:04:16.852] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:16.852] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.895] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:16.902] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:16.902] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:16.902] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:16.902] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.945] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:16.952] (serverConnectThread.cpp:Process(:726))::commandBuffer 25473
+-s tapconnect lnreturncode 6
+
+[15:04:16.952] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:16.952] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:16.995] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:17.002] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:17.002] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:17.002] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:17.002] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:17.045] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:17.052] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:17.052] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:17.052] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:17.095] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:17.145] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:17.195] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:17.199] (:copyStructure.cpp:copyData(:82))name 192.168.20.179
+[15:04:17.199] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.179
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: bridge
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name bridge
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf_spread
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name stp-nnf_spread
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:17.199] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:17.199] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:17.199] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:17.199] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:17.199] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:17.199] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:17.641] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:17.641] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:17.641] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:17.641] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:18.641] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:18.641] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:18.641] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:18.641] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:19.641] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:19.642] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:19.642] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:19.642] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:20.217] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.52:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:20.262] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.40:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:20.312] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.35:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:20.360] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.51:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:20.412] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.36:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:20.461] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.114:9602.*ESTABLISHED" lnreturncode 2
+
+[15:04:20.461] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.501] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s xml
+
+[15:04:20.511] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s xml lnreturncode 0
+
+[15:04:20.511] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.511] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.511] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.549] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:20.559] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-nnf lnreturncode 0
+
+[15:04:20.559] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.559] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.559] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.591] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:20.601] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-conf lnreturncode 0
+
+[15:04:20.601] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.601] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.601] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.641] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-report
+
+[15:04:20.642] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:20.642] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:20.642] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:20.642] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:20.651] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s stp-report lnreturncode 0
+
+[15:04:20.651] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.651] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.651] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.691] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:20.701] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord lnreturncode 0
+
+[15:04:20.701] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.701] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.701] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.741] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:20.751] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s ord_thinker lnreturncode 0
+
+[15:04:20.751] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.751] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.751] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.791] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:20.801] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:20.801] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.801] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.801] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.841] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:20.851] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s tapconnect lnreturncode 0
+
+[15:04:20.851] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.851] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.851] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.891] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:20.901] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:20.901] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.901] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.901] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:20.941] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:20.951] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:20.951] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:20.951] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:20.991] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:21.041] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:21.091] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:21.096] (:copyStructure.cpp:copyData(:82))name 192.168.20.95
+[15:04:21.097] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.95
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: xml
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name xml
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: stp-report
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name stp-report
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:21.097] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:21.097] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:21.097] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:21.097] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:21.097] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:21.097] (:copyStructure.cpp:copyData(:148))lineId 5802
+[15:04:21.097] (:copyStructure.cpp:copyData(:148))lineId 22046
+[15:04:21.097] (:copyStructure.cpp:copyData(:148))lineId 24212
+[15:04:21.097] (:copyStructure.cpp:copyData(:148))lineId 25167
+[15:04:21.097] (:copyStructure.cpp:copyData(:148))lineId 26245
+[15:04:21.097] (:copyStructure.cpp:copyData(:148))lineId 32609
+[15:04:21.642] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:21.642] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:21.642] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:21.642] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:22.642] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:22.642] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:22.642] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:22.642] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:23.104] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.105] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge
+
+[15:04:23.112] (serverConnectThread.cpp:Process(:726))::commandBuffer 26153
+-s bridge lnreturncode 6
+
+[15:04:23.112] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:23.112] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.156] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf
+
+[15:04:23.163] (serverConnectThread.cpp:Process(:726))::commandBuffer 26161
+-s stp-nnf lnreturncode 6
+
+[15:04:23.163] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:23.163] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.206] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-conf
+
+[15:04:23.213] (serverConnectThread.cpp:Process(:726))::commandBuffer 26173
+-s stp-conf lnreturncode 6
+
+[15:04:23.213] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:23.213] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.256] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s stp-nnf_spread
+
+[15:04:23.263] (serverConnectThread.cpp:Process(:726))::commandBuffer 26169
+-s stp-nnf_spread lnreturncode 6
+
+[15:04:23.263] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:23.263] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.306] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord
+
+[15:04:23.313] (serverConnectThread.cpp:Process(:726))::commandBuffer 26217
+-s ord lnreturncode 6
+
+[15:04:23.313] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:23.313] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.356] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s ord_thinker
+
+[15:04:23.363] (serverConnectThread.cpp:Process(:726))::commandBuffer 26214
+-s ord_thinker lnreturncode 6
+
+[15:04:23.363] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:23.363] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.406] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s aurora_feed
+
+[15:04:23.413] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s aurora_feed lnreturncode 0
+
+[15:04:23.413] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:23.413] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:23.413] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.456] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s tapconnect
+
+[15:04:23.463] (serverConnectThread.cpp:Process(:726))::commandBuffer 25473
+-s tapconnect lnreturncode 6
+
+[15:04:23.463] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 1 
+
+[15:04:23.463] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.506] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s feeder_gen
+
+[15:04:23.513] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s feeder_gen lnreturncode 0
+
+[15:04:23.513] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:23.513] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:23.513] (serverConnectThread.cpp:Process(:708))::process name
+
+[15:04:23.556] (serverConnectThread.cpp:Process(:718)):: Pid of process command pidof -s bridge_gen
+
+[15:04:23.563] (serverConnectThread.cpp:Process(:726))::commandBuffer pidof -s bridge_gen lnreturncode 0
+
+[15:04:23.563] (serverConnectThread.cpp:Process(:734))::libbssh2 0
+
+[15:04:23.563] (serverConnectThread.cpp:Process(:740))::tsi.processes[i].process_on_off 0 
+
+[15:04:23.606] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /tmp  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:23.642] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:23.642] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:23.642] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:23.643] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:23.656] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /home  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:23.707] (serverConnectThread.cpp:Process(:759))::command for spacedf -hk | grep /var  | awk '{print $(NF-1)}' | awk -F "%" '{print $1}'
+
+[15:04:23.711] (:copyStructure.cpp:copyData(:82))name 192.168.20.179
+[15:04:23.711] (:copyStructure.cpp:copyData(:89))ipadress 192.168.20.179
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: bridge
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name bridge
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name stp-nnf
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: stp-conf
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name stp-conf
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: stp-nnf_spread
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name stp-nnf_spread
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: ord
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name ord
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: ord_thinker
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name ord_thinker
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: aurora_feed
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name aurora_feed
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: tapconnect
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name tapconnect
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 1
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: feeder_gen
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name feeder_gen
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:23.711] (:copyStructure.cpp:copyData(:99))process name :: bridge_gen
+[15:04:23.711] (:copyStructure.cpp:copyData(:105))name bridge_gen
+[15:04:23.711] (:copyStructure.cpp:copyData(:106))state 0
+[15:04:23.711] (:copyStructure.cpp:copyData(:115))state /tmp
+[15:04:23.711] (:copyStructure.cpp:copyData(:115))state /home
+[15:04:23.711] (:copyStructure.cpp:copyData(:115))state /var
+[15:04:24.643] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:24.643] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:24.643] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:24.643] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:25.643] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:25.643] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:25.643] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:25.643] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:26.643] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
+[15:04:26.643] (StartLineProcess.cpp:data_recv(:477))::No data Found
+
+[15:04:26.643] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:04:26.643] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:04:26.726] (serverConnectThread.cpp:Process(:350))::commandBuffer 0
+in/netstat -n|/bin/grep -c  "192.168.20.52:9602.*ESTABLISHED" lnreturncode 2
+

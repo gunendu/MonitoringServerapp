@@ -1,0 +1,66 @@
+module MONITORING {
+
+const long MAX_PROCESSES=100;
+const long MAX_SPACES=32;
+const long MAX_LINES=100;
+const long MAX_PROC_NAMELEN=64;
+const long MAX_DIR_PATHLEN=32;
+const long MAX_USER_NAMELEN=32;
+const long MAX_LEASE_LINE=12;
+const long MAX_TAP_SERVER=2;
+
+enum elinestatus { UP = 1, DOWN = 0 } ;
+enum eState { OFF = 0, ON = 1 } ;
+enum eLineType { CM = 0, FO = 1, CMFO = 2, BSE = 3 } ;
+
+
+struct ipSequence
+{
+string<16> ipadress; //@key
+eState status;
+};
+struct leaseProcessStart
+{
+sequence<ipSequence,10> ip_info;
+};
+
+struct leaseLineInfo
+{
+string<16> ipadress; //@key
+long lineId;
+elinestatus status;
+eLineType  linetype;
+};
+
+struct tapServerInfo
+{
+string<16> ipv4Address;  //@key
+eState status;
+sequence<leaseLineInfo,MAX_LEASE_LINE> line_info;
+};
+
+struct tagProcessInfo
+{
+    string<MAX_PROC_NAMELEN> name; //@key
+    eState state;
+}; 
+ struct tagSpaceInfo
+{
+    string<MAX_DIR_PATHLEN> name; //@key
+    boolean is_space_full;
+};
+
+
+ struct tagServerInfo
+{
+    string<16> ipv4Address; //@key
+    boolean serverStatus;
+    sequence<tagProcessInfo,MAX_PROCESSES> process_list; //@key
+	sequence<tagSpaceInfo,MAX_SPACES> space_list; //@key
+	sequence<leaseLineInfo,MAX_LEASE_LINE> line_info; //@key
+	string<100> Logpath;
+	boolean status;
+	 
+};
+
+}; //module MONITORING

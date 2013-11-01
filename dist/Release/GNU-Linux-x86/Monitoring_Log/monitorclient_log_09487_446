@@ -1,0 +1,7 @@
+[15:08:26.698] (StartLineProcess.cpp:data_recv(:484))::Data_seq Length 0
+
+[15:08:26.698] (StartLineProcess.cpp:data_recv(:450))::Inside While 
+
+[15:08:27.465] ddsinterface.cpp-Shutdown(143): finalize_instance failed with error code(4)
+[15:08:27.698] (StartLineProcess.cpp:data_recv(:470)):: Before Take 
+
